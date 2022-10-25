@@ -30,9 +30,10 @@
 # antinums=nums[::-1]
 # print(antinums)
 
+# import math 
 # res=[]
 # for i in range(n):
-#     if i>=n//2:
+#     if i>math.ceil(len(nums)//2):
 #         break
 #     res.append(nums[i]*antinums[i])
 # print(res)
